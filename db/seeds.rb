@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+event1 = Event.create(title: "First event", start_at: DateTime.now, end_at: DateTime.now + 1.day)
